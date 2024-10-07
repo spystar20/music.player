@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>music player</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="player">
+      <div class="nav">
+        <img class="img" src="left-arrow_10023601.png" alt="img" />
+        <img class="menu" src="3917075.png" alt="" />
+      </div>
+      <div class="list">
+        <div class="header">
+          <span> Music list </span>
+        </div>
+        <ul>
+
+        </ul>
+      </div>
+      <div class="cd">
+        <div class="co">
+          <img
+            class="rotate"
+            src="240_F_577577352_tFQ3YSEJt9oWy7p1PoO3Cj6F3fyTTozH-removebg-preview.png"
+            alt=""
+          />
+          <img class="covercd pic" src="" alt="" />
+        </div>
+        <img class="cover pic" src="" alt="" />
+        <div class="head">
+          <h1 class="song">Tiramisu Cake</h1>
+          <p class="artist">We Are The Night</p>
+        </div>
+
+        <div class="lyrics">
+          <h1>lyrics</h1>
+          <div class="lyric"></div>
+        </div>
+      </div>
+
+      <div class="audio">
+        <audio src="Tiramisu Cake(MpThree.in).mp3" class="music"></audio>
+        <div class="line"><input type="range" id="range" /></div>
+      </div>
+      <div class="controls">
+        <div><img class="shuffle" src="3917213.png" alt="" /></div>
+        <div><img class="back" src="next.png" alt="" /></div>
+        <div>
+          <img
+            class="play"
+            onclick="playPause()"
+            src="play-buttton.png"
+            alt=""
+          />
+          <img src="pause.png" alt="" onclick="playPause()" class="pause" />
+        </div>
+
+        <div><img class="next" src="next.png" alt="" /></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
